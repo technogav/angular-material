@@ -1,0 +1,115 @@
+<html lang="en" >
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Angular Material style sheet -->
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
+  <style>
+    .lightgreen{background:lightgreen;}
+    .lightblue{background: lightblue;}
+
+    .avatar{
+        position: relative;
+        width:48px;
+        height:48px;
+        border:1px solid #ddd;
+        border-radius: 50%;
+        overflow:hidden;
+        display:inline-block;
+    }
+
+    .side-nav-panels{
+        width:100%;
+        margin:5px;
+        padding:5px;
+    }
+</style>
+</head>
+<body ng-app="BlankApp" ng-cloak layout="column">
+   <md-toolbar> 
+       <h1>Noah's cool page</h1>
+   </md-toolbar>
+   <div class="" layout="row">
+        <md-sidenav class="lightgreen md-whiteframe-4dp" md-is-locked-open="true">
+            <md-list>
+                <md-list-item>
+                    <md-button class="side-nav-panels">
+                        <md-icon md-svg-src="img/oa.svg" class="avatar"></md-icon>
+                        <h2>Panel 1</h2>
+                    </md-button>
+                </md-list-item>
+                <md-list-item>
+                    <md-button class="side-nav-panels">
+                        <md-icon md-svg-src="img/oa.svg" class="avatar"></md-icon>
+                        <h2>Panel 1</h2>                   
+                    </md-button>
+                    
+                    
+                </md-list-item>
+                <md-list-item>
+                    <md-button class="side-nav-panels">
+                        <md-icon md-svg-src="img/oa.svg" class="avatar"> </md-icon>  
+                        <h2>Panel 1</h2>  
+                    </md-button>
+                    
+                </md-list-item>
+                <md-list-item>
+                    <md-button class="side-nav-panels">
+                        <md-icon md-svg-src="img/oa.svg" class="avatar"></md-icon>
+                        <h2>Panel 1</h2>
+                    </md-button>
+                </md-list-item>
+                <md-list-item>
+                    <md-button class="side-nav-panels">
+                        <md-icon md-svg-src="img/oa.svg" class="avatar"> </md-icon>
+                        <h2>Panel 1</h2>
+                    </md-button>
+                </md-list-item>
+                <md-list-item>
+                    <md-button class="side-nav-panels">
+                        <md-icon md-svg-src="img/oa.svg" class="avatar">
+                           
+                        </md-icon>
+                    </md-button>
+                </md-list-item>
+                
+            </md-list>
+        </md-sidenav>
+        <md-content class="lightblue" flex>
+            <md-icon md-svg-src="img/oa.svg" class="avatar"></md-icon>
+            <h2>Panel 1</h2>  
+            <hr>
+            <p>loriksl jkl dfslk sdfklsf sf fdsjf sdfjdflskdf isdfj sd fsdklf sdlkfj sdffsdfdsfklsdf lsdjf sdf sdjf klsd fklsdf sj sljdlsdjflsdflskddjfsjlksjdfklfssldkfj     jdfsd flskdf sdfj sdlf sdl flsdkf lsd flsdkfs
+        </md-content>
+   </div>
+   
+  
+  <!-- Angular Material requires Angular.js Libraries -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-animate.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-aria.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular-messages.min.js"></script>
+
+  <!-- Angular Material Library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  
+  <!-- Your application bootstrap  -->
+  <script type="text/javascript">    
+    /**
+     * You must include the dependency on 'ngMaterial' 
+     */
+    var app = angular.module('BlankApp', ['ngMaterial']);
+
+    controllers
+    app.controller("MainCtrl", function(){
+        
+    })
+
+  </script>
+  
+</body>
+</html>
+
+<!--
+Copyright 2016 Google Inc. All Rights Reserved. 
+Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at https://material.angularjs.org/license.
+-->
